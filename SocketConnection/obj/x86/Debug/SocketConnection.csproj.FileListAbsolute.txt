@@ -1,0 +1,9 @@
+C:\Users\Francesco\source\repos\LAN Checker\SocketConnection\bin\Debug\SocketConnection.pdb
+C:\Users\Francesco\source\repos\LAN Checker\SocketConnection\obj\x86\Debug\SocketConnection.csprojAssemblyReference.cache
+C:\Users\Francesco\source\repos\LAN Checker\SocketConnection\obj\x86\Debug\SocketConnection.SocketConnectionForm.resources
+C:\Users\Francesco\source\repos\LAN Checker\SocketConnection\obj\x86\Debug\SocketConnection.Properties.Resources.resources
+C:\Users\Francesco\source\repos\LAN Checker\SocketConnection\obj\x86\Debug\SocketConnection.csproj.GenerateResource.cache
+C:\Users\Francesco\source\repos\LAN Checker\SocketConnection\obj\x86\Debug\SocketConnection.csproj.CoreCompileInputs.cache
+C:\Users\Francesco\source\repos\LAN Checker\SocketConnection\obj\x86\Debug\SocketConnection.pdb
+C:\Users\Francesco\source\repos\LAN Checker\SocketConnection\bin\Debug\SocketConnection.dll
+C:\Users\Francesco\source\repos\LAN Checker\SocketConnection\obj\x86\Debug\SocketConnection.dll

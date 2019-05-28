@@ -1,0 +1,9 @@
+C:\Source\LAN Checker\SocketConnection\bin\Release\Sniffer.dll
+C:\Source\LAN Checker\SocketConnection\bin\Release\Sniffer.pdb
+C:\Source\LAN Checker\SocketConnection\obj\x86\Release\SocketLib.csprojAssemblyReference.cache
+C:\Source\LAN Checker\SocketConnection\obj\x86\Release\SocketConnection.SocketConnectionForm.resources
+C:\Source\LAN Checker\SocketConnection\obj\x86\Release\SocketConnection.Properties.Resources.resources
+C:\Source\LAN Checker\SocketConnection\obj\x86\Release\SocketLib.csproj.GenerateResource.cache
+C:\Source\LAN Checker\SocketConnection\obj\x86\Release\SocketLib.csproj.CoreCompileInputs.cache
+C:\Source\LAN Checker\SocketConnection\obj\x86\Release\Sniffer.dll
+C:\Source\LAN Checker\SocketConnection\obj\x86\Release\Sniffer.pdb

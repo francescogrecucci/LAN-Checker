@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!-- How to start the program (Maximized, Normal) -->
+  <windowStart>Maximized</windowStart>
+</config>
