@@ -1,0 +1,38 @@
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\bin\Debug\LANCheck_0.7.3.exe
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\bin\Debug\LANCheck_0.7.3.pdb
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\obj\Debug\LAN Checker.csprojAssemblyReference.cache
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.MainFrm.resources
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.Properties.Resources.resources
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\obj\Debug\LAN Checker.csproj.GenerateResource.cache
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\obj\Debug\LAN Checker.csproj.CoreCompileInputs.cache
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\obj\Debug\LANCheck_0.7.3.exe
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\obj\Debug\LANCheck_0.7.3.pdb
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\bin\Debug\LANCheck_0.7.3.exe.config
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\bin\Debug\SocketConnection.dll
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\bin\Debug\SocketConnection.pdb
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\obj\Debug\LAN Checker.csproj.CopyComplete
+C:\Users\Francesco\source\repos\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.Splash.resources
+C:\Source\LAN Checker\LAN Checker\bin\Debug\config.xml
+C:\Source\LAN Checker\LAN Checker\bin\Debug\lanchecker.exe.config
+C:\Source\LAN Checker\LAN Checker\bin\Debug\lanchecker.exe.manifest
+C:\Source\LAN Checker\LAN Checker\bin\Debug\lanchecker.application
+C:\Source\LAN Checker\LAN Checker\bin\Debug\lanchecker.exe
+C:\Source\LAN Checker\LAN Checker\bin\Debug\lanchecker.pdb
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.AboutBox.resources
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.DNS_To_IP.resources
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.NetReset.resources
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.Ping.resources
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.Splash.resources
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.MainFrm.resources
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN_Checker.Properties.Resources.resources
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN Checker.csproj.GenerateResource.cache
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN Checker.csproj.CoreCompileInputs.cache
+C:\Source\LAN Checker\LAN Checker\obj\Debug\lanchecker.TrustInfo.xml
+C:\Source\LAN Checker\LAN Checker\obj\Debug\lanchecker.exe.manifest
+C:\Source\LAN Checker\LAN Checker\obj\Debug\lanchecker.application
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN Checker.csproj.CopyComplete
+C:\Source\LAN Checker\LAN Checker\obj\Debug\lanchecker.exe
+C:\Source\LAN Checker\LAN Checker\obj\Debug\lanchecker.pdb
+C:\Source\LAN Checker\LAN Checker\obj\Debug\LAN Checker.csprojAssemblyReference.cache
+C:\Source\LAN Checker\LAN Checker\bin\Debug\Sniffer.dll
+C:\Source\LAN Checker\LAN Checker\bin\Debug\Sniffer.pdb

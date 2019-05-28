@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF3C4BF8-9ADD-4E4F-A4A7-CF5FDE33E5DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LAN_Checker</RootNamespace>
+    <AssemblyName>Lanchecker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\source\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>0.7.3.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>network_television.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>199317FEF93EEF5D67C65002522EB84C9F9AF5C7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LAN Checker_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DNS-To-IP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DNS-To-IP.Designer.cs">
+      <DependentUpon>DNS-To-IP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetReset.Designer.cs">
+      <DependentUpon>NetReset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ping.Designer.cs">
+      <DependentUpon>Ping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DNS-To-IP.resx">
+      <DependentUpon>DNS-To-IP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetReset.resx">
+      <DependentUpon>NetReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ping.resx">
+      <DependentUpon>Ping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="LAN Checker_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SocketConnection\SocketLib.csproj">
+      <Project>{c70c06ff-a9b5-44ef-b91d-f9745d7b93c1}</Project>
+      <Name>SocketLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="network_television.ico" />
+    <None Include="Resources\gtech.png" />
+    <None Include="Resources\grectech.bmp" />
+    <None Include="Resources\grectech.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\start.png" />
+    <None Include="Resources\Next_32px.png" />
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
