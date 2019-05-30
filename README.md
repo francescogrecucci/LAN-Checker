@@ -2,9 +2,9 @@
 
 LAN Diagnosis utility.
 
-<div align = "center"><image src = "LANChecker.png"></div>
+<p align = "center"><image src = "LANChecker.png"></p>
 
-LAN Checker allows you to analyze network traffic to and from your computer. It represents the perfect solution for technicians and hobbists. We even develop this program even for security purposes: you can use it for discover malwares and spywares that uses your network.
+<div>LAN Checker allows you to analyze network traffic to and from your computer. It represents the perfect solution for technicians and hobbists. We even develop this program even for security purposes: you can use it for discover malwares and spywares that uses your network.</div>
 
 <h3>Features</h3>
 <ul>
