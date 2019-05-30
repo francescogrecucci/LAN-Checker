@@ -39,12 +39,10 @@ namespace LAN_Checker
 
         private void MainFrm_Load(object sender, EventArgs e)
         {
-            /* Splash Screen */
-            Splash splash = new Splash();
-            splash.Show();
-
-            /* Splash Screen Delay */
-            Thread.Sleep(3000);
+            /* Splash Screen Thread Opens */
+            Thread splash = new Thread(new ThreadStart(SplashShow));
+            splash.Start();
+            Thread.Sleep(1000);
 
             Chart_init();
             OSChecker();
@@ -54,7 +52,14 @@ namespace LAN_Checker
             timer1.Start();
 
             /* Close Splash */
-            splash.Close();
+            splash.Abort();
+            /* Set this window */
+            this.Activate();
+        }
+
+        static void SplashShow()
+        {
+            Application.Run(new Splash());
         }
 
         private void OSChecker()
@@ -111,7 +116,8 @@ namespace LAN_Checker
         private void Button4_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Do you really want to reset all the network settings? " +
-                "This will erase all of your Windows Network parameters.",
+                "This will erase all of your Windows Network parameters. PLEASE RUN THIS PROCEDURE LAUNCHING " +
+                "LAN CHECKER WITH ADMINISTRATIVE RIGHTS!",
                 "LAN Checker - Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
             if (result == DialogResult.Yes)

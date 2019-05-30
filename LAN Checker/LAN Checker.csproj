@@ -53,7 +53,7 @@
     </StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>network_television.ico</ApplicationIcon>
+    <ApplicationIcon>lanchecker.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>199317FEF93EEF5D67C65002522EB84C9F9AF5C7</ManifestCertificateThumbprint>
@@ -179,7 +179,8 @@
     <Content Include="config.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="network_television.ico" />
+    <Content Include="icons8_VPN.ico" />
+    <Content Include="lanchecker.ico" />
     <None Include="Resources\gtech.png" />
     <None Include="Resources\grectech.bmp" />
     <None Include="Resources\grectech.png" />
