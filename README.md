@@ -2,4 +2,4 @@
 
 LAN Diagnosis utility.
 
-<div align = "center"><image src = "LANChecker10.png"></div>
+<div align = "center"><image src = "LANChecker.png"></div>
