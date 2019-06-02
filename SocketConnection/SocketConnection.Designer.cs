@@ -105,6 +105,7 @@
             // tscProtocolType
             // 
             this.tscProtocolType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tscProtocolType.Enabled = false;
             this.tscProtocolType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tscProtocolType.Items.AddRange(new object[] {
             "TCP",

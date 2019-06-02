@@ -278,6 +278,7 @@ namespace SocketConnection
         private void tsbStartCapture_Click(object sender, EventArgs e)
         {
             // Enabling timer object to fire tick events.
+            tscProtocolType.Visible = false;
             tmrDataRefreshTimer.Enabled = true;
             tsbStopCapture.BackColor = SystemColors.Control;
             tsbStartCapture.BackColor = SystemColors.ActiveCaptionText;
