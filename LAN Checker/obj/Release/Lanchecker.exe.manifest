@@ -4,7 +4,7 @@
   <description asmv2:iconFile="lanchecker.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Lanchecker" version="0.73.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Lanchecker" version="0.73.2.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="Lanchecker.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -44,25 +44,25 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lanchecker.exe" size="1376192">
-      <assemblyIdentity name="Lanchecker" version="0.73.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Lanchecker" version="0.73.2.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>LhWDYoZ1sI/4RZ9xDy6zKd1ymoo=</dsig:DigestValue>
+        <dsig:DigestValue>A9Dmk2y+J2OV4dSqKiHFLiwawOA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sniffer.dll" size="58880">
-      <assemblyIdentity name="Sniffer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="Sniffer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>+ynEao0gNRVNkEstSWMrKbohUy0=</dsig:DigestValue>
+        <dsig:DigestValue>EbsOk+VdJlaooE5HJ/QJ9vwIJ5k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

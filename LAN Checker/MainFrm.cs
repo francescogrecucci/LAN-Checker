@@ -351,7 +351,7 @@ namespace LAN_Checker
                 }
                 catch (Exception)
                 {
-                    MessageBox.Show("OS not supported by this application, please upgrade your system.", "LAN Checker", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    //MessageBox.Show("OS not supported by this application, please upgrade your system.", "LAN Checker", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

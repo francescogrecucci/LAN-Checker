@@ -1443,7 +1443,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LAN Checker v. 0.73";
+            this.Text = "LAN Checker v. 0.73.1";
             this.Deactivate += new System.EventHandler(this.MainFrm_Deactivate);
             this.Load += new System.EventHandler(this.MainFrm_Load);
             this.menuStrip1.ResumeLayout(false);
